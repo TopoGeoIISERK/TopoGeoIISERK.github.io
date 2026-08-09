@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <link rel="preload" href="/fonts/Inter-roman.var-latin.woff2?3.13" as="font" type="font/woff2" crossorigin="true" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charSet="utf-8" />
+  <title> DMS Topology & Geometry Seminar | IISER Kolkata | &#8706;M&#x2022;S</title>
+  <meta name="description" content="Topology & Geometry Seminar" />
+  <meta name="next-head-count" content="25" />
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <link rel="shortcut icon" type="image/x-icon" href="pics/favicon.png">
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- Loading mathjax macro -->
+  <!-- Load mathjax -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_HTML"></script>
+  <!-- MathJax configuration -->
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: true,
+                processEnvironments: true
+            },
+            // Center justify equations in code and markdown cells. Elsewhere
+            // we use CSS to left justify single line equations in code cells.
+            displayAlign: 'center',
+            "HTML-CSS": {
+                styles: {'.MathJax_Display': {"margin": 0}},
+                linebreaks: { automatic: true }
+            }
+        });
+        </script>
+  <!-- End of mathjax configuration -->
+</head>
+</head>
+
+<body>
+
+  <div id="__next">
+    <div class="antialiased">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+        <header class="flex justify-between items-center py-10">
+          <div>
+            <a aria-label="Topology & Geometry Seminar" href="/">
+              <img src="pics/TandG-logo.png" alt="logo" width="200" height="200">
+            </a>
+          </div>
+
+          <div class="text-base leading-2">
+            <a href="https://math.iiserkol.ac.in/" class="font-medium text-gray-500 hover:text-red-700" target="_blank">DMS Webpage</a>
+          </div>
+
+          <div class="text-base leading-5">
+            <a href="https://www.iiserkol.ac.in/web/en" class="font-medium text-gray-500 hover:text-red-700" target="_blank">IISERK Webpage</a>
+          </div>
+        </header>
+      </div>
+
+      <hr>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 xl:px-0 py-12">
+        <h1 class="text-3xl md:text-5xl font-bold text-center text-teal-500 mb-8">DMS Topology &amp; Geometry Seminar - IISER Kolkata</h1>
+        <hr class="w-full border-2 border-teal-500">
+    </div>
+
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+        <main>
+          <div class="divide-y divide-gray-200">
+              <div class="pt-6 pb-8 space-y-2 md:space-y-5">
+                <h1 class="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight leading-9 md:leading-14">Spring 2026</h1>
+                <p class="text-lg leading-7 text-gray-500 text-justify">
+                  Welcome to the Topology and Geometry Seminar at <a href="https://www.iiserkol.ac.in/web/en" target="_blank" rel="noopener noreferrer" class="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-200">IISER Kolkata</a>! Our seminars focus on the latest developments and cutting-edge research in topology and geometry, as well as related areas of mathematics. Seminars are open to all and may be held offline or online. While there is no fixed schedule, please check back frequently for updates. <a href="https://forms.gle/Z2z1enicpQSXiapy5" class="font-semibold text-blue-500 hover:text-blue-700 transition-colors duration-200" target="_blank">Join mailing group (or if you want to give a talk)</a> for the latest seminar schedule and format updates. Stay connected with our community and don't miss out on exciting events. Thank you for your interest in the Topology and Geometry Seminar at IISER Kolkata! An archive of previous talks can be found in the following links: <a href="Spring2023.html" class="font-semibold text-blue-400 hover:text-blue-600 transition-colors duration-200">Spring 2023</a>, <a href="Autumn2023.html" class="font-semibold text-blue-400 hover:text-blue-600 transition-colors duration-200">Autumn 2023</a>, <a href="Spring2024.html" class="font-semibold text-blue-400 hover:text-blue-600 transition-colors duration-200">Spring 2024</a>, <a href="Autumn2024.html" class="font-semibold text-blue-400 hover:text-blue-600 transition-colors duration-200">Autumn 2024</a>, <a href="Spring2025.html" class="font-semibold text-blue-400 hover:text-blue-600 transition-colors duration-200">Spring 2025</a>, <a href="Autumn 2025.html" class="font-semibold text-blue-400 hover:text-blue-600 transition-colors duration-200">Autumn 2025</a>.
+                </p>
+              </div>
+              <hr class="w-full border-1 border-gray-500">
+            </div>
+
+          <div class="divide-y divide-gray-200">
+              <div class="pt-6 pb-8 space-y-2 md:space-y-5">
+                <h2 style="text-align:center;font-family:verdana;background-color:powderblue;">Upcoming Talks</h2>
+              </div>
+            </div>
+
+
+
+            <ul class="divide-y divide-gray-200">
+
+              <!-- Speaker Name and details of upcoming talks -->
+        
+
+               <li class="py-12">
+                <article class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
+                  <dl>
+                    <dt class="sr-only">Published on</dt>
+                    <dd class="text-base leading-6 font-medium text-gray-500">
+                      <time dateTime="2021-02-01T13:35:00.0Z"> 27th, 29th April, 1st May 2026 </time>
+                    </dd>
+                  </dl>
+                  <div class="space-y-5 xl:col-span-3">
+                    <div class="space-y-6">
+                      <h2 class="text-2xl leading-8 font-bold tracking-tight">
+                      Cut Locus in Geometry  <br>
+                        <span style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; font-weight: 400;"><a href="https://aritra.ksom.res.in/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700">  Aritra Bhowmick </a> (Kerala School of Mathematics) </span>
+                      </h2>
+                      <div class="prose max-w-none text-gray-500">
+                        <p class="text-lg leading-7 text-gray-500 text-justify">
+                    Talk 1 : Introduction to Cut Locus in Geometry<br>
+
+In this introductory talk, we shall introduce the notion of the cut locus of a subset, a concept intrinsic to any Riemannian manifold. We shall see examples, discuss some important properties, and define other closely related concepts such as focal locus and separating set. 
+Although having some familiarity with Riemannian geometry would be helpful, we shall recall all the relevant notions. There will be pictures!<br><br>
+
+Date: Monday (27th April)<br>
+Time: 2-3 pm<br>                          
+Zoom link: TBA
+                        </p>
+                         <p class="text-lg leading-7 text-gray-500 text-justify">
+Talk 2 : Intersection of Cut and Focal Locus<br>
+
+Rauch had made a conjecture that the cut and focal loci of a point always intersect in a simply connected manifold. Weinstein disproved this by showing the existence of a metric on any manifold (other than the 2-sphere) for which there is a point whose cut and focal loci are disjoint.<br>
+
+In this talk we shall see how Weinstein's technique can be adapted to prove a similar result for submanifolds. Again, there will be many pictures to accompany! This is a joint work with T. Schick and S. Prasad.<br><br>
+
+Date: Wednesday (29th April)<br>
+Time: 2-3 pm<br>
+Zoom link: TBA
+                        </p>
+
+                        <p class="text-lg leading-7 text-gray-500 text-justify">
+Talk 3 : Stability of Cut Locus and Some Questions<br>
+
+In this final talk, we shall explore the stability question of the cut locus, which has gained some interest in recent years from different perspectives. We shall show that the cut locus of a point remains Hausdorff close if one perturbs the point (and even the metric). The proof uses some facts about the viscosity solutions of the eikonal equation. This is a joint work with S. Prasad and J. Itoh. We will conclude with some open questions in the area.<br><br>
+
+Date: Friday (1st May)<br>
+Time: 2-3 pm<br>
+Zoom link: TBA
+                        </p>
+                        
+                      </div>
+                      <div class="prose max-w-none text-gray-500">
+              <!--            <span class="text-lg font-semibold">Venue:</span> <span class="text-lg">  TBA [offline talks]  </span><br> 
+                        <span class="text-lg font-semibold">Time:</span> <span class="text-lg"> 3-4 pm IST </span><br> -->
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+
+          
+              <!-- <p>Coming soon...</p>             -->
+
+            </ul>
+
+
+
+          
+          
+         <div class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
+          <div class="divide-y divide-gray-200">
+              <div class="pt-6 pb-8 space-y-2 md:space-y-5">
+                <h2 style="text-align:center;font-family:verdana;background-color:rgb(244, 226, 179);">Previous Talks</h2>
+              </div>
+            </div>
+           
+          <ul class="divide-y divide-gray-200">
+
+              <!-- Speaker Name and details of previous talks -->
+
+
+                <li class="py-12">
+                <article class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
+                  <dl>
+                    <dt class="sr-only">Published on</dt>
+                    <dd class="text-base leading-6 font-medium text-gray-500">
+                      <time dateTime="2021-02-01T13:35:00.0Z">17th, 19th and 23rd March 2026</time>
+                    </dd>
+                  </dl>
+                  <div class="space-y-5 xl:col-span-3">
+                    <div class="space-y-6">
+                      <h2 class="text-2xl leading-8 font-bold tracking-tight">
+                      Towards a Dennis Trace for Assembler K-Theory  <br>
+                        <span style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; font-weight: 400;"> Ramyak Bilas </a> (Indiana University, USA)</span>
+                      </h2>
+                      <div class="prose max-w-none text-gray-500">
+                        <p class="text-lg leading-7 text-gray-500 text-justify">
+                          Algebraic K-theory invariants are notoriously difficult to compute directly, making trace methods an essential and highly successful tool. In recent years, motivated by the generalized Hilbert's third problem, new combinatorial K-theories have been introduced utilizing formalisms like assemblers. While specific trace maps have recently been constructed for higher scissors congruence groups in assembler K-theory, the broader trace method framework remains incomplete. Drawing on joint work with Sanjana Agarwal extending the notion of traces to assemblers, this talk focuses on defining a universal object that serves as the analogue of Hochschild homology in this setting. We will explore the construction of this target object and demonstrate that previously constructed trace maps factor through this "Dennis trace" map.
+ 
+                        </p>
+                      </div>
+                      <div class="prose max-w-none text-gray-500">
+                         <span class="text-lg font-semibold">Venue:</span> <span class="text-lg"><a href="https://us06web.zoom.us/j/86139766848?pwd=C9iFUTlUP6J2ZH9A1yhAYzpzfJYyCc.1" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-700 deactivate-after-date" data-date="2026-02-16">Zoom Link</a> </span><br> 
+                        <span class="text-lg font-semibold">Time:</span> <span class="text-lg"> 
+                          7 pm IST  (17th, 19th & 23rd March 2026) </span><br>
+                  <span class="text-lg"> <a href="Lecture-Notes/Ramyak_Notes.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700">Notes</a></span><br>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+
+            
+
+            
+                <li class="py-12">
+                <article class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
+                  <dl>
+                    <dt class="sr-only">Published on</dt>
+                    <dd class="text-base leading-6 font-medium text-gray-500">
+
+                      <time dateTime="2021-02-01T13:35:00.0Z"> 25th February 2026 </time>
+                    </dd>
+                     </dl>
+                     <div class="space-y-5 xl:col-span-3">
+                    <div class="space-y-6">
+                      <h2 class="text-2xl leading-8 font-bold tracking-tight">
+                      Algebraic invariants of knots and links  <br>
+                             
+                        <span style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; font-weight: 400;"><a href="https://sujoymukherjee.com/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700">  Sujoy Mukherjee </a> (University of Denver) </span>
+                      </h2>
+                      <div class="prose max-w-none text-gray-500">
+                        <p class="text-lg leading-7 text-gray-500 text-justify">
+                         The axioms of a quandle are algebraic translations of the three Reidemeister moves in knot theory. Quandles are commonly used to construct algebraic invariants in knot theory. In the first half of the talk, I will discuss basic quandle theory followed by homology theories related to quandles and their generalizations in relation to classical knot theory. The second half of the talk will focus on algebraic invariants in the recently-introduced field of multi-virtual knot theory, a generalization of virtual knot theory. After discussing preliminary ideas related to the subject, I will generalize the usual coloring invariants in classical knot theory to the multi-virtual setting using operator quandles. The talk will showcase results obtained with several co-authors. 
+                        </p>
+                      </div>
+                      <div class="prose max-w-none text-gray-500">
+                         <span class="text-lg font-semibold">Venue:</span> <span class="text-lg">  G08 [offline talk]  </span><br> 
+                        <span class="text-lg font-semibold">Time:</span> <span class="text-lg"> 3-4 pm IST </span><br>
+                         <span class="text-lg"> <a href="Lecture-Notes/Sujoy_Mukherjee_slides.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700">Slides</a></span><br>
+                      </div>
+                      </div>
+                    </div>
+                </article>
+              </li>
+
+
+                <li class="py-12">
+                <article class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
+                  <dl>
+                    <dt class="sr-only">Published on</dt>
+                    <dd class="text-base leading-6 font-medium text-gray-500">
+                      <time dateTime="2021-02-01T13:35:00.0Z">20th January, 2026</time>
+                    </dd>
+                  </dl>
+                  <div class="space-y-5 xl:col-span-3">
+                    <div class="space-y-6">
+                      <h2 class="text-2xl leading-8 font-bold tracking-tight">
+                      Uniqueness in the local Donaldson-Scaduto conjecture <br>
+                        <span style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; font-weight: 400;"><a href="https://www.gorapadabera.com/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700"> Gorapada Bera  </a> (Simons center for Geometry & Physics, NY, USA)</span>
+                      </h2>
+                      <div class="prose max-w-none text-gray-500">
+                        <p class="text-lg leading-7 text-gray-500 text-justify">
+                          Donaldson’s program on the adiabatic limit of $K3-$fibered $G_2-$manifolds relates associative submanifolds to certain weighted trivalent graphs on the base called gradient cycles. A key ingredient in this relation, near a trivalent vertex, is the existence and uniqueness of an associative pair of pants in the $G_2-$manifold formed as a product of a $K3$ surface and the Euclidean $3-$plane. This is known as the Donaldson–Scaduto conjecture. Although this conjecture remains open, a local version replacing the $K3$ surface with an ALE or ALF hyperkähler $4-$manifold of type $A_2$, has been shown to exist by Esfahani and Li. In this talk, I will discuss our joint work on proving the uniqueness, showing that no other associative pair of pants satisfies this local version of the conjecture.
+ 
+                        </p>
+                      </div>
+                      <div class="prose max-w-none text-gray-500">
+                         <span class="text-lg font-semibold">Venue:</span> <span class="text-lg"> LHC G09, IISER Kolkata </span><br> 
+                        <span class="text-lg font-semibold">Time:</span> <span class="text-lg"> 3 PM IST </span><br>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+
+            
+                  <li class="py-12">
+                <article class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-baseline">
+                  <dl>
+                    <dt class="sr-only">Published on</dt>
+                    <dd class="text-base leading-6 font-medium text-gray-500">
+                      <time dateTime="2021-02-01T13:35:00.0Z">20th, 22nd, 26th January 2026</time>
+                    </dd>
+                  </dl>
+                  <div class="space-y-5 xl:col-span-3">
+                    <div class="space-y-6">
+                      <h2 class="text-2xl leading-8 font-bold tracking-tight">
+                      Rational homotopy theory and algebraic models <br>
+                        <span style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:20px; font-weight: 400;"><a href="https://bimsa.net/people/jwzhou/" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700"> Jiawei Zhou   </a> (Nanchang University, China)</span>
+                      </h2>
+                      <div class="prose max-w-none text-gray-500">
+                        <p class="text-lg leading-7 text-gray-500 text-justify">
+                         Rational homotopy theory studies the free parts of homotopy and homology groups. By ignoring torsion, the remaining structure can be represented by algebraic models. This approach works particularly well for simply connected spaces with cohomology of finite type. The Sullivan model, a special type of differentially graded algebra, is one of the central algebraic models in rational homotopy theory.
+         In this lecture series, I will introduce the construction of the Sullivan model, explain how it encodes topological information, and describe how to reconstruct a space from such an algebra. My current research focuses on understanding when the realization of a non-simply-connected Sullivan algebra preserves cohomology.
+         If time permits, I will also discuss another related topic: a space is called formal if its rational cohomology ring itself can serve as its algebraic model. Although a sphere bundle over a compact formal manifold may not be formal, its formality can be determined arithmetically using the Bianchi-Massey tensor introduced by Crowley and Nordström.
+ 
+                        </p>
+                      </div>
+                      <div class="prose max-w-none text-gray-500">
+                          <span class="text-lg font-semibold">Venue:</span> <span class="text-lg"><a href="https://us06web.zoom.us/j/86841308432?pwd=qusxx46uF2pu2cTTUBb0DjWxabat73.1" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-700 deactivate-after-date" data-date="2026-02-16">Zoom Link</a> </span><br> 
+                         <span class="text-lg font-semibold">Time:</span> <span class="text-lg">  11:30 AM-12:30 PM IST (20th January 2026) </span><br>
+                        <span style="padding-left: 54px;" class="text-lg">  3-4 PM IST (22th January 2026)</span><br>
+                          <span style="padding-left: 54px;" class="text-lg">11:30 AM-12:30 PM IST (26th January 2026)</span><br
+                        <span class="text-lg"> <a href="Lecture-Notes/Rational homotopy theory and algebraic models_Jiawei.pdf" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-blue-700">Slides</a></span><br>
+                      </div>
+                    </div>
+                  </div>
+                </article>
+              </li>
+            
+            
+          </ul> 
+     </div>       
+          
+
+          </div>
+        </main>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <hr>
+
+  <footer class="text-gray-600 body-font" style = "align-content:center">
+    <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+      <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900" href="seminar-on-topology-and-geometry.html">
+          <img src="pics/TandG-logo.png" alt="logo" width="120" height="120">
+      </a>
+      <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 DMS Topology & Geometry Seminar —
+        <a href="https://math.iiserkol.ac.in" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">DMS</a>
+        <a href="https://www.iiserkol.ac.in/web/en/" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@ IISERK</a>
+      </p>
+    </div>
+  </footer>
+
+
+
+  <script src="script.js"></script>
+
+  <script id="__NEXT_DATA__" type="application/json" crossorigin="anonymous">
+    {
+      "props": {
+        "pageProps": {}
+      },
+      "page": "/",
+      "query": {},
+      "buildId": "5i4G3s2jBYeJ1HMKlrvDq",
+      "nextExport": true,
+      "autoExport": true,
+      "isFallback": false
+    }
+  </script>
+  <script crossorigin="anonymous" nomodule="">
+    ! function() {
+      var e = document,
+        t = e.createElement("script");
+      if (!("noModule" in t) && "onbeforeload" in t) {
+        var n = !1;
+        e.addEventListener("beforeload", function(e) {
+            if (e.target === t)
+              n = !0;
+            else if (!e.target.hasAttribute("nomodule") || !n)
+              return;
+            e.preventDefault()
+          }, !0),
+          t.type = "module",
+          t.src = ".",
+          e.head.appendChild(t),
+          t.remove()
+      }
+    }();
+  </script>
+  <script crossorigin="anonymous" nomodule="" src="/_next/static/runtime/polyfills-0f75c8ede6fe59f93383.js"></script>
+  <script async="" data-next-page="/_app" src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/pages/_app.js" crossorigin="anonymous" nomodule=""></script>
+  <script async="" data-next-page="/_app" src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/pages/_app.module.js" crossorigin="anonymous" type="module"></script>
+  <script async="" data-next-page="/" src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/pages/index.js" crossorigin="anonymous" nomodule=""></script>
+  <script async="" data-next-page="/" src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/pages/index.module.js" crossorigin="anonymous" type="module"></script>
+  <script src="/_next/static/runtime/webpack-c212667a5f965e81e004.js" async="" crossorigin="anonymous" nomodule=""></script>
+  <script src="/_next/static/runtime/webpack-a5e0d34e8fa0286fccbd.module.js" async="" crossorigin="anonymous" type="module"></script>
+  <script src="/_next/static/chunks/framework.e84fa698c7ee940652bd.js" async="" crossorigin="anonymous" nomodule=""></script>
+  <script src="/_next/static/chunks/framework.e84fa698c7ee940652bd.module.js" async="" crossorigin="anonymous" type="module"></script>
+  <script src="/_next/static/chunks/commons.ba00499b6a441586f8e1.js" async="" crossorigin="anonymous" nomodule=""></script>
+  <script src="/_next/static/chunks/commons.3f1facb13e40714f5597.module.js" async="" crossorigin="anonymous" type="module"></script>
+  <script src="/_next/static/runtime/main-b13ad2b52938d38320c0.js" async="" crossorigin="anonymous" nomodule=""></script>
+  <script src="/_next/static/runtime/main-584e5a78d6a92f49e2ef.module.js" async="" crossorigin="anonymous" type="module"></script>
+  <script src="/_next/static/chunks/489456c66327a108c09694cfa56d7825f6f2401a.2eff368bb33448bc5491.js" async="" crossorigin="anonymous" nomodule=""></script>
+  <script src="/_next/static/chunks/489456c66327a108c09694cfa56d7825f6f2401a.12c46f58431ca043c76f.module.js" async="" crossorigin="anonymous" type="module"></script>
+  <script src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/_buildManifest.js" async="" crossorigin="anonymous" nomodule=""></script>
+  <script src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/_buildManifest.module.js" async="" crossorigin="anonymous" type="module"></script>
+  <script src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/_ssgManifest.js" async="" crossorigin="anonymous" nomodule=""></script>
+  <script src="/_next/static/5i4G3s2jBYeJ1HMKlrvDq/_ssgManifest.module.js" async="" crossorigin="anonymous" type="module"></script>
+</body>
+
+</html>
